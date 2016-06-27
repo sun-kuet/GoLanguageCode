@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;go-xml-test&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/go/src/appscode-lbc" />
+      <root url="file://$USER_HOME$/go/src/gopkg.in" />
+      <root url="file://$USER_HOME$/go/src/appscode" />
+      <root url="file://$USER_HOME$/go/src/google.golang.org" />
+      <root url="file://$USER_HOME$/go/src/rsc.io" />
+      <root url="file://$USER_HOME$/go/src/spf13-cobra-test" />
+      <root url="file://$USER_HOME$/go/src/9fans.net" />
+      <root url="file://$USER_HOME$/go/src/sourcegraph.com" />
+      <root url="file://$USER_HOME$/go/src/launchpad.net" />
+      <root url="file://$USER_HOME$/go/src/go4.org" />
+      <root url="file://$USER_HOME$/go/src/app" />
+      <root url="file://$USER_HOME$/go/src/bitbucket.org" />
+      <root url="file://$USER_HOME$/go/src/code.google.com" />
+      <root url="file://$USER_HOME$/go/src/github.com" />
+      <root url="file://$USER_HOME$/go/src/speter.net" />
+      <root url="file://$USER_HOME$/go/src/golang.org" />
+      <root url="file://$USER_HOME$/go/src/k8s.io" />
+      <root url="file://$USER_HOME$/go/src/collectd.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
