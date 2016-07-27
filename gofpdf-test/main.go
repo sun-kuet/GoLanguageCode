@@ -15,7 +15,7 @@ type PdfCreator struct {
 
 func NewPdfCreator() *PdfCreator {
 	return &PdfCreator{
-		pdf: gofpdf.New("P", "mm", "A4", ""),
+		pdf: gofpdf.New("L", "mm", "", ""),
 	}
 }
 
@@ -26,8 +26,9 @@ func (p *PdfCreator) addImage(filename string) {
 
 func main() {
 	p := NewPdfCreator()
-	p.pdf.AddPage()
+	p.pdf.AddPageFormat("0", gofpdf.SizeType{Wd: 90, Ht: 60})
 	p.addImage("sun.jpg")
+	p.pdf.AddPage()
 
 	p.pdf.SetFont("Arial", "B", 16)
 	p.pdf.Cell(40, 10, "Hello World!")
